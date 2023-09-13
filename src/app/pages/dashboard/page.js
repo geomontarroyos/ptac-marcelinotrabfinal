@@ -3,6 +3,7 @@ import { Suspense } from "react";
 import Listar from "@/app/componentes/listar";
 
 export default async function Dashboard() {
+
     const users = getUsers()
     return (
         <div> 
