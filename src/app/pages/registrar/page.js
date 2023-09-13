@@ -2,20 +2,33 @@
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 
-const Formulario = () => { 
+const Formulario = () => {
+
   const handlerLogin = async (e) => {
     e.preventDefault();
-    toast.success('Registrado com sucesso!!!!!!!!!!')
+    toast.success('registrado com sucesso')
   }
   return (
-    <div class="body">
+    <div>
+      <h1>Login</h1>
       <form onSubmit={handlerLogin}>
-      <h1>Entrar</h1>
-      <input placeholder='Nome' type="nome" ></input>
-        <input placeholder='E-mail' type="email"></input>
-        <input placeholder='Senha' type='password'> </input>
-        <button>Entrar</span></button>
-        <button><a href="/pages/dashboard">Voltar</a></button>
+
+      <input
+          placeholder='nome'
+          type="nome" >
+        </input>
+        <input
+    
+          placeholder='E-mail'
+          type="email">
+        </input>
+
+        <input
+          placeholder='Senha'
+          type='password'
+        >
+        </input>
+        <button>Entrar</button>
       </form>
       <ToastContainer/>
     </div>
@@ -23,3 +36,4 @@ const Formulario = () => {
 };
 
 export default Formulario;
+

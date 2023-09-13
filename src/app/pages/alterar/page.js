@@ -1,27 +1,40 @@
 'use client'
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const Formulario = () => { 
+const Formulario = () => {
+
   const handlerLogin = async (e) => {
     e.preventDefault();
-    toast.success('Alterado com sucesso!!!!!!!!!!')
+    toast.success('alterado com sucesso')
   }
   return (
-    <body>
-    <div class="body">
+    <div>
+      <h1>Login</h1>
       <form onSubmit={handlerLogin}>
-      <h1>Entrar</h1>
-      <input placeholder='Nome' type="nome" ></input>
-        <input placeholder='E-mail' type="email"></input>
-        <input placeholder='Senha' type='password'> </input>
-        <button>Entrar</span></button>
+
+      <input
+          placeholder='nome'
+          type="nome" >
+        </input>
+        <input
+    
+          placeholder='E-mail'
+          type="email">
+        </input>
+
+        <input
+          placeholder='Senha'
+          type='password'
+        >
+        </input>
+        <button>Entrar</button>
         <button><a href="/pages/dashboard">Voltar</a></button>
       </form>
       <ToastContainer/>
     </div>
-    </body>
   )
 };
 
 export default Formulario;
+
