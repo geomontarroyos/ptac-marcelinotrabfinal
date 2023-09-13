@@ -27,10 +27,18 @@ const Users = [{
 
 ];
 const getUserAuthenticated = (user) => {
+let userAuth ={};
+
+Users.map((user) => {
+    if (user.email === userLogin.email & user.senha === userLogin.password){
+        userAuth = user
+    }
+}) //validando se o email é igual a senha e ta mapeando a lista
+return userAuth;
 
 }
 
 const getUsers = () =>{
-        
+        return Users;
 }
 export { getUsers, getUserAuthenticated };
