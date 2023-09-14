@@ -1,7 +1,7 @@
 'use client'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
+import './alterar.css';
 const Formulario = () => {
 
   const handlerLogin = async (e) => {

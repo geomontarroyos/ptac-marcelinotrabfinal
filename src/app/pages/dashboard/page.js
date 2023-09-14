@@ -1,6 +1,7 @@
 import { getUsers } from "@/app/functions/handlerAcessAPI";
 import { Suspense } from "react";
 import Listar from "@/app/componentes/listar";
+import './dashboard.css';
 
 export default async function Dashboard() {
 
