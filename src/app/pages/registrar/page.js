@@ -1,7 +1,7 @@
 'use client'
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
-import './registrar.css';
+
 
 const Formulario = () => {
 
@@ -10,7 +10,7 @@ const Formulario = () => {
     toast.success('registrado com sucesso')
   }
   return (
-    <div>
+    <div className="registrar">
       <h1>Login</h1>
       <form onSubmit={handlerLogin}>
 

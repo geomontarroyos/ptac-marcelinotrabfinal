@@ -1,19 +1,21 @@
 import { getUsers } from "@/app/functions/handlerAcessAPI";
 import { Suspense } from "react";
 import Listar from "@/app/componentes/listar";
-import './dashboard.css';
+
 
 export default async function Dashboard() {
 
-    const users = getUsers()
+    const users = await getUsers();
     return (
         <div> 
-            <Suspense fallback={<p> carregando pagina...</p>}>
-                <Listar users={users}/>
+
+<div className="body">
+            <Suspense fallback={<p> Carregando pagina...</p>}>
+                <Listar className="body" users={users}/>
                 <button><a href="/pages/alterar">Alterar</a></button>
                 <button><a href="/pages/registrar">Registrar</a></button>
 </Suspense>
-            
+</div>
         </div>
     );
 };
