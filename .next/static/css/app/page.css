@@ -612,17 +612,3 @@
 }
 
 /*# sourceMappingURL=ReactToastify.css.map */
-/*!*************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./src/app/style.css ***!
-  \*************************************************************************************************************************************************************************************************************************************************************/
-.container{
-    text-align: center;
-    color: pink;
-    background-color: white ;
-    border: 1px solid white;
-    position: absolute;
-    width: 50%;
-    padding: 50px 50px;
-    top: 50px;
-    left: 50px;
-}
