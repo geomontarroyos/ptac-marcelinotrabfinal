@@ -1,7 +1,7 @@
 import { getUsers } from "@/app/functions/handlerAcessAPI";
 import { Suspense } from "react";
 import Listar from "@/app/componentes/listar";
-
+import "../../global.css"
 
 export default async function Dashboard() {
 
@@ -10,10 +10,10 @@ export default async function Dashboard() {
         <div> 
 
 <div className="body">
-            <Suspense fallback={<p> Carregando pagina...</p>}>
+            <Suspense fallback={<p className="carrega"> Carregando pagina...</p>}>
                 <Listar className="body" users={users}/>
-                <button><a href="/pages/alterar">Alterar</a></button>
-                <button><a href="/pages/registrar">Registrar</a></button>
+                <button className="botaoalt"><a href="/pages/alterar">Alterar</a></button>
+                <button className="botaoreg"><a href="/pages/registrar">Registrar</a></button>
 </Suspense>
 </div>
         </div>

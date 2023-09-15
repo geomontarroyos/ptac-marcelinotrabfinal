@@ -1,0 +1,43 @@
+.body{
+    background-color: #c5eb9f;
+    font-family: 'Brush Script MT', cursive;
+    color: white;
+}
+
+.carrega{
+    background-color: brown;
+   
+}
+
+p{
+    font-size: 20px;
+    margin-left: 10px;
+    padding-top: 5px;
+    border: black solid 1px;
+    text-align: center;
+}
+
+button{
+    padding: 10px;
+   
+    background-color: #baee86;
+    border-radius: 8px;
+    border-color: white;
+   
+}
+
+.botaoalt{
+    margin-left: 720px;
+    margin-right: 25px;
+}
+
+button:hover{
+    background-color: #709150 ;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
