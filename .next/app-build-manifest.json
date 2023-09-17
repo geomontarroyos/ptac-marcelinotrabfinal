@@ -6,10 +6,11 @@
       "static/css/app/pages/alterar/page.css",
       "static/chunks/app/pages/alterar/page.js"
     ],
-    "/layout": [
+    "/pages/dashboard/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/layout.js"
+      "static/css/app/pages/dashboard/page.css",
+      "static/chunks/app/pages/dashboard/page.js"
     ],
     "/pages/registrar/page": [
       "static/chunks/webpack.js",
@@ -17,11 +18,10 @@
       "static/css/app/pages/registrar/page.css",
       "static/chunks/app/pages/registrar/page.js"
     ],
-    "/pages/dashboard/page": [
+    "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/pages/dashboard/page.css",
-      "static/chunks/app/pages/dashboard/page.js"
+      "static/chunks/app/layout.js"
     ]
   }
 }
