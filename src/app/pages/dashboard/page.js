@@ -14,7 +14,7 @@ export default async function Dashboard() {
                 <Listar className="body" users={users}/>
                 <button className="botaoalt"><a href="/pages/alterar">Alterar</a></button>
                 <button className="botaoreg"><a href="/pages/registrar">Registrar</a></button>
-</Suspense>
+            </Suspense>
 </div>
         </div>
     );
