@@ -19,11 +19,19 @@ p{
 
 button{
     padding: 10px;
-   
     background-color: #baee86;
     border-radius: 8px;
     border-color: white;
    
+}
+
+.botao{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 750px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .botaoalt{
@@ -37,6 +45,35 @@ button:hover{
 
 a{
     text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+}
+
+.inputs{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: #baee86;
+    margin-right: 20px;
+    border-color: white;
+    border-radius: 5px;
+    margin-left: 625px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.inputs:hover{
+    background-color: #709150 ;
+}
+
+.inputs::placeholder {
     color: white;
     font-size: 15px;
     font-weight: bold;
