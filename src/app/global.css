@@ -34,11 +34,10 @@ button{
     margin-left: 750px;
     margin-top: 10px;
     margin-bottom: 10px;
-    
 }
 
 .botaoalt{
-    margin-left: 710px;
+    margin-left: 690px;
     margin-right: 25px;
 }
 
@@ -46,11 +45,30 @@ button:hover{
     background-color: #709150 ;
 }
 
+.botaopvolt{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 745px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+
+}
+
+.apvolt{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 2px;
+}
+
 a{
     text-decoration: none;
     color: white;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bold;
+    padding: 5px;
 }
 
 h1{

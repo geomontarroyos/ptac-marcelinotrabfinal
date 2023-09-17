@@ -1,6 +1,7 @@
 'use client'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import "../../global.css"
 
 const Formulario = () => {
 
@@ -9,27 +10,27 @@ const Formulario = () => {
     toast.success('alterado com sucesso')
   }
   return (
-    <div className="alterar">
+    <div className="body">
       <h1>Login</h1>
       <form onSubmit={handlerLogin}>
 
-  <div className= "inputs">
-      <input  placeholder='nome' type="nome" >
+  <div className= "input">
+      <input  placeholder='nome' type="nome" className= "inputs" >
         </input>
         </div>
 
-        <div className= "inputs">
-        <input  placeholder='E-mail' type="email">
+        <div className= "input">
+        <input  placeholder='E-mail' type="email" className= "inputs">
         </input>
   </div>
 
-  <div className= "inputs">
-        <input placeholder='Senha'  type='password' >
+  <div className= "input">
+        <input placeholder='Senha'  type='password' className= "inputs" >
         </input>
         </div>
 
-        <button>Entrar</button>
-        <button><a href="/pages/dashboard">Voltar</a></button>
+        <button className='botaopvolt'>Entrar</button>
+        <button className='botaopvolt'><a className='apvolt' href="/pages/dashboard">Voltar</a></button>
       </form>
       <ToastContainer/>
     </div>
