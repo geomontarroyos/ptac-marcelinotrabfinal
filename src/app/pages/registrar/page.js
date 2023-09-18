@@ -29,7 +29,7 @@ const Formulario = () => {
           type='password'
         >
         </input>
-        <button className="botao">Entrar</button>
+        <button className="botao">Registrar</button>
       </form>
       <ToastContainer/>
     </div>

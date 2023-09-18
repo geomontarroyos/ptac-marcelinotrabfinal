@@ -7,7 +7,7 @@ const Formulario = () => {
 
   const handlerLogin = async (e) => {
     e.preventDefault();
-    toast.success('alterado com sucesso')
+    toast.success('Alterado com sucesso')
   }
   return (
     <div className="body">
@@ -35,7 +35,7 @@ const Formulario = () => {
       <ToastContainer/>
     </div>
   )
-};
+}
 
 export default Formulario;
 
