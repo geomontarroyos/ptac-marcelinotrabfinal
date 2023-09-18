@@ -32,17 +32,29 @@ export default function Login() {
       <div>
       </div>
       <fieldset>
-      <h1>Faça o login</h1>
+      <h1>Login</h1>
+
+      <div className="abcd">
         <input className="inputs"
-          placeholder='E-mail'
+          placeholder='Insira seu nome'
+          type="name"
+          onChange={(e) => { setUser({ ...user, name: e.target.value }) }}>
+        </input>
+</div>
+      <div className="abcd">
+        <input className="inputs"
+          placeholder='Insira seu E-mail'
           type="email"
           onChange={(e) => { setUser({ ...user, email: e.target.value }) }}>
         </input>
+        </div>
+        <div className="abcd">
         <input className="inputs"
-          placeholder='Senha'
+          placeholder='Insira sua senha'
           type='password'
           onChange={(e) => { setUser({ ...user, password: e.target.value }) }}>
         </input>
+        </div>
         <br></br>
         <button className="botao">Entrar</button>
         </fieldset>

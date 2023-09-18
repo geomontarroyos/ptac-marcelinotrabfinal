@@ -26,7 +26,7 @@ const getUserAuthenticated = async (userLogin) => {
 let userAuth = {};
 
 Users.map((user) => {
-    if (user.email === userLogin.email & user.senha === userLogin.password){
+    if (user.email === userLogin.email && user.senha === userLogin.senha){
         userAuth = user
     }
 }) //validando se o email é igual a senha e ta mapeando a lista
