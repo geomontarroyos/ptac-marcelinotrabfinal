@@ -616,9 +616,8 @@
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./src/app/global.css ***!
   \**************************************************************************************************************************************************************************************************************************************************************/
 .body{
-    background-color: #c5eb9f;
-    font-family: 'Brush Script MT', cursive;
-    color: white;
+    background-color: white;
+    color: lightblue;
 }
 
 .carrega{
@@ -638,7 +637,7 @@ p{
 
 button{
     padding: 10px;
-    background-color: #baee86;
+    background-color: lightblue;
     border-radius: 8px;
     border-color: white;
     
@@ -659,16 +658,24 @@ button{
 }
 
 button:hover{
-    background-color: #709150 ;
+    background-color:rgb(22, 167, 229);
 }
 
-.botaopvolt{
+.entrar{
     color: white;
     font-size: 20px;
     font-weight: bold;
-    margin-left: 745px;
-    margin-right: 25px;
-    margin-bottom: 10px;
+    padding: 15px 10px;
+    width: 100%;
+    text-align: center;
+}
+.voltar{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 10px;
+    width: 100%;
+    text-align: center;
 
 }
 
@@ -677,7 +684,7 @@ button:hover{
     color: white;
     font-weight: bold;
     font-size: 20px;
-    padding: 2px;
+    padding: 5px 0px;
 }
 
 a{
@@ -698,21 +705,18 @@ h1{
     padding: 10px;
     text-align: center;
     color: white;
-    background-color: #baee86;
+    background-color: lightblue;
     border-color: white;
     border-radius: 5px;
-    margin-left: 625px;
-    margin-right: 25px;
+    margin-left: 10px;
+    margin-right: 50px;
     margin-bottom: 15px;
-    width: 100%;
-    max-width: 300px;
-    font-family: 'Brush Script MT', cursive;
     font-weight: bold;
     font-size: 15px;
 }
 
 .inputs:hover{
-    background-color: #709150 ;
+    background-color: rgb(22, 167, 229) ;
 }
 
 .inputs::-moz-placeholder {
@@ -731,4 +735,9 @@ form{
     padding-bottom: 100px;
 }
 
+.inputs{
+    width: 100%;
+    padding: 5px 0px;
+ 
+}
 
