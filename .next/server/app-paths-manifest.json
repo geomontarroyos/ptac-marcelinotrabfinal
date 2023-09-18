@@ -1,4 +1,7 @@
 {
+  "/page": "app/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/pages/dashboard/page": "app/pages/dashboard/page.js",
-  "/page": "app/page.js"
+  "/pages/alterar/page": "app/pages/alterar/page.js",
+  "/pages/registrar/page": "app/pages/registrar/page.js"
 }

@@ -57,7 +57,7 @@ export default function Login() {
         </input>
         </div>
         <br></br>
-        <button className="botao">Entrar</button>
+        <button className="botaoo">Entrar</button>
         </fieldset>
       </form>
       <ToastContainer/>

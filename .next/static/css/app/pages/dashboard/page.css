@@ -3,13 +3,15 @@
   \**************************************************************************************************************************************************************************************************************************************************************/
 .body{
     background-color: white;
-    color: lightblue;
+    color: lightblue; 
 }
 
+
 .carrega{
-    background-color: brown;
+ margin-top: 50px;
    
 }
+
 
 p{
     font-size: 20px;
@@ -22,10 +24,12 @@ p{
 }
 
 button{
-    padding: 10px;
+    padding: 15px;
     background-color: lightblue;
     border-radius: 8px;
     border-color: white;
+
+
     
 }
 
@@ -33,13 +37,13 @@ button{
     color: white;
     font-weight: bold;
     font-size: 20px;
-    margin-left: 750px;
+    margin-left: 48%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .botaoalt{
-    margin-left: 690px;
+    margin-left: 42%;
     margin-right: 25px;
 }
 
@@ -49,20 +53,15 @@ button:hover{
 
 .entrar{
     color: white;
+    margin-left: 42%;
+    margin-right: 25px;
     font-size: 20px;
     font-weight: bold;
-    padding: 15px 10px;
-    width: 100%;
-    text-align: center;
 }
 .voltar{
     color: white;
     font-size: 20px;
     font-weight: bold;
-    padding: 15px 10px;
-    width: 100%;
-    text-align: center;
-
 }
 
 .apvolt{
@@ -70,7 +69,10 @@ button:hover{
     color: white;
     font-weight: bold;
     font-size: 20px;
-    padding: 5px 0px;
+  
+}
+.h1{
+    color: lightblue
 }
 
 a{
@@ -88,15 +90,15 @@ h1{
 }
 
 .inputs{
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     color: white;
     background-color: lightblue;
     border-color: white;
-    border-radius: 5px;
-    margin-left: 10px;
-    margin-right: 50px;
+    border-radius: 15px;
     margin-bottom: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
     font-weight: bold;
     font-size: 15px;
 }
@@ -122,8 +124,14 @@ form{
 }
 
 .inputs{
-    width: 100%;
-    padding: 5px 0px;
- 
+    width: 50%;
+    
+ margin-left: 25%;
 }
+
+fieldset{
+    margin-top: 10%;
+}
+
+
 

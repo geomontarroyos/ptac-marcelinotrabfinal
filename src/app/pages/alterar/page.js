@@ -30,8 +30,8 @@ const Formulario = () => {
         </input>
         </div>
 
-        <button className='entrar'>Entrar</button>
-        <button className='voltar'><a className='apvolt' href="/pages/dashboard">Voltar</a></button>
+        <button className='entrar'>Entrar</button> <button className='voltar'><a className='apvolt' href="/pages/dashboard">Voltar</a></button>
+        
       </form>
       <ToastContainer/>
     </div>
