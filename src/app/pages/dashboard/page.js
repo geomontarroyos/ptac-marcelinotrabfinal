@@ -1,6 +1,5 @@
 import { getUsers } from "@/app/functions/handlerAcessAPI";
 import { Suspense } from "react";
-import Menu from "@/app/componentes/menu";
 import Listar from "@/app/componentes/listar";
 import "../../global.css"
 
