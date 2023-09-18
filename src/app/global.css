@@ -1,7 +1,6 @@
 .body{
-    background-color: #c5eb9f;
-    font-family: 'Brush Script MT', cursive;
-    color: white;
+    background-color: white;
+    color: lightblue;
 }
 
 .carrega{
@@ -21,7 +20,7 @@ p{
 
 button{
     padding: 10px;
-    background-color: #baee86;
+    background-color: lightblue;
     border-radius: 8px;
     border-color: white;
     
@@ -42,7 +41,7 @@ button{
 }
 
 button:hover{
-    background-color: #709150 ;
+    background-color:rgb(22, 167, 229);
 }
 
 .botaopvolt{
@@ -81,22 +80,19 @@ h1{
     padding: 10px;
     text-align: center;
     color: white;
-    background-color: #baee86;
-    margin-right: 20px;
+    background-color: lightblue;
+    margin-right: 50px;
     border-color: white;
     border-radius: 5px;
-    margin-left: 625px;
-    margin-right: 25px;
+    margin-left: 10px;
+    margin-right: 50px;
     margin-bottom: 15px;
-    width: 100%;
-    max-width: 300px;
-    font-family: 'Brush Script MT', cursive;
     font-weight: bold;
     font-size: 15px;
 }
 
 .inputs:hover{
-    background-color: #709150 ;
+    background-color: rgb(22, 167, 229) ;
 }
 
 .inputs::placeholder {

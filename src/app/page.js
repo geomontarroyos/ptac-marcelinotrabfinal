@@ -31,7 +31,8 @@ export default function Login() {
       <form onSubmit={handlerLogin}>
       <div>
       </div>
-      <h1>Entrar</h1>
+      <fieldset>
+      <h1>Faça o login</h1>
         <input className="inputs"
           placeholder='E-mail'
           type="email"
@@ -44,6 +45,7 @@ export default function Login() {
         </input>
         <br></br>
         <button className="botao">Entrar</button>
+        </fieldset>
       </form>
       <ToastContainer/>
     </div>
