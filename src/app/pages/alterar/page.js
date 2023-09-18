@@ -12,7 +12,7 @@ const Formulario = () => {
   }
   return (
     <div className="body">
-      <h1>Login</h1>
+      <h1>Página para alterar usuário</h1>
       <form onSubmit={handlerLogin}>
 
   <div className= "sla">
@@ -30,7 +30,7 @@ const Formulario = () => {
         </input>
         </div>
 
-        <button className='entrar'>Entrar</button> <button className='voltar'><a className='apvolt' href="/pages/dashboard">Voltar</a></button>
+        <button className='entrar'>Alterar</button> <button className='voltar'><a className='apvolt' href="/pages/dashboard">Voltar</a></button>
         
       </form>
       <ToastContainer/>

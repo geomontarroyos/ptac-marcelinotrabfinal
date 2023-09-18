@@ -39,7 +39,7 @@ export default function Login() {
         <input className="inputs"
           placeholder='Insira seu nome'
           type="name"
-          onChange={(e) => { setUser({ ...user, name: e.target.value }) }}>
+          onChange={(e) => { setUser({ ...user, nome: e.target.value }) }}>
         </input>
 </div>
       <div className="abcd">
@@ -53,11 +53,11 @@ export default function Login() {
         <input className="inputs"
           placeholder='Insira sua senha'
           type='password'
-          onChange={(e) => { setUser({ ...user, password: e.target.value }) }}>
+          onChange={(e) => { setUser({ ...user, senha: e.target.value }) }}>
         </input>
         </div>
         <br></br>
-        <button className="botaoo">Entrar</button>
+        <button className="botao">Entrar</button>
         </fieldset>
       </form>
       <ToastContainer/>
