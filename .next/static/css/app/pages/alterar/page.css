@@ -656,8 +656,11 @@ button{
 }
 
 .botaoalt{
+    color: white;
     margin-left: 42%;
     margin-right: 25px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 button:hover{
@@ -673,15 +676,18 @@ button:hover{
 }
 .voltar{
     color: white;
+    margin-left: 42%;
+    margin-right: 25px;
     font-size: 20px;
     font-weight: bold;
 }
 
 .apvolt{
-    text-decoration: none;
     color: white;
-    font-weight: bold;
+    margin-left: 42%;
+    margin-right: 25px;
     font-size: 20px;
+    font-weight: bold;
   
 }
 .h1{
@@ -747,62 +753,69 @@ fieldset{
 }
 
 
+.menu li a:hover{
 
-
-nav {
-  width: 300px;
-  background: white;
-  color:rgb(22, 167, 229);
-  -webkit-clip-path: circle(24px at 30px 24px);
-  clip-path: circle(24px at 32px 24px);
-  transition: -webkit-clip-path 0.5625s, clip-path 0.375s;
-}
-
-nav:hover {
-  transition-timing-function: ease-out;
-  transition-duration: 0.75s;
-  -webkit-clip-path: circle(390px at 225px 24px);
-  clip-path: circle(390px at 150px 24px);
-}
-
-a {
-  display: block;
-  line-height: 50px;
-  padding: 0 20px;
-  color: inherit;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
-}
-
-a:hover { background:lightblue; }
-
-a:active { background:lightblue; }
-
-.navicon {
-  padding: 23px 20px;
-  cursor: pointer;
-  transform-origin: 32px 24px;
-}
-
-.navicon div {
-  position: relative;
-  width: 20px;
-  height: 2px;
-  background: rgb(22, 167, 229);
-}
-
-.navicon div:before,
-.navicon div:after {
-  display: block;
-  content: "";
-  width: 20px;
-  height: 2px;
-  background: rgb(22, 167, 229);
-  position: absolute;
-}
-
-.navicon div:before { top: -7px; }
-
-.navicon div:after { top: 7px; }
+    color:#fff;
+    -moz-box-shadow:0 1px 5px 0 rgb(22, 167, 229);
+    -webkit-box-shadow:0 1px 5px 0 rgb(22, 167, 229);
+    text-shadow:0px 0px 1px rgb(22, 167, 229);
+    }
+    
+    
+    nav {
+      width: 300px;
+      background: white;
+      color:rgb(22, 167, 229);
+      -webkit-clip-path: circle(24px at 30px 24px);
+      clip-path: circle(24px at 32px 24px);
+      transition: -webkit-clip-path 0.5625s, clip-path 0.375s;
+    }
+    
+    nav:hover {
+      transition-timing-function: ease-out;
+      transition-duration: 0.75s;
+      -webkit-clip-path: circle(390px at 225px 24px);
+      clip-path: circle(390px at 150px 24px);
+    }
+    
+    a {
+      display: block;
+      line-height: 50px;
+      padding: 0 20px;
+      color: inherit;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+    
+    a:hover { background:lightblue; }
+    
+    a:active { background:lightblue; }
+    
+    .navicon {
+      padding: 23px 20px;
+      cursor: pointer;
+      transform-origin: 32px 24px;
+    }
+    
+    .navicon div {
+      position: relative;
+      width: 20px;
+      height: 2px;
+      background: rgb(22, 167, 229);
+    }
+    
+    .navicon div:before,
+    .navicon div:after {
+      display: block;
+      content: "";
+      width: 20px;
+      height: 2px;
+      background: rgb(22, 167, 229);
+      position: absolute;
+    }
+    
+    .navicon div:before { top: -7px; }
+    
+    .navicon div:after { top: 7px; }
