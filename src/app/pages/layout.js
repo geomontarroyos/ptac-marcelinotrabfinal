@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation"
 export default function Layout({children}){
     const {push} = useRouter();
 
-    const logout = (e) =>{
+    const sair = (e) =>{
         e.preventDefault();
         Cookies.remove('token');
         push('/')
@@ -19,6 +19,7 @@ export default function Layout({children}){
                 <li><Link href="/pages/dashboard" id="rota">HOME</Link></li>
 <li><Link href="/pages/registrar" id="rota">REGISTRAR</Link></li>
 <li><Link href="/pages/alterar" id="rota">ALTERAR</Link></li>
+<li><button className="sair" onClick={sair}>Sair</button></li>
 </ul>
 </nav>
             <div>{children}</div>
