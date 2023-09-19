@@ -14,20 +14,17 @@ export default function Layout({children}){
     }
     return(
         <body>
-   <nav>
-  <div class="navicon">
-    <div></div>
-  </div>
-
-  <li><Link href="/pages/dashboard" id="rota">HOME</Link></li>
+            <nav>
+                <ul className="menu">
+                <li><Link href="/pages/dashboard" id="rota">HOME</Link></li>
 <li><Link href="/pages/registrar" id="rota">REGISTRAR</Link></li>
 <li><Link href="/pages/alterar" id="rota">ALTERAR</Link></li>
-
+</ul>
 </nav>
-
             <div>{children}</div>
         </body>
     )
 }
+
 
 
