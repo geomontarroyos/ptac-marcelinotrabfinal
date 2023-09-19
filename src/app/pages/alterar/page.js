@@ -7,7 +7,7 @@ import "../../global.css"
 const Formulario = () => {
 
   const handlerLogin = async (e) => {
-    e.preventDefault();
+    e.preventDefault();  // cancelar um evento
     toast.success('Alterado com sucesso')
   }
   return (

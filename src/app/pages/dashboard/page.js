@@ -9,7 +9,6 @@ export default async function Dashboard() {
     return (
         <div> 
 
-
 <h1 className="h1">Usuários cadastrados </h1>
 
 <div className="body">

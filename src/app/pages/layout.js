@@ -4,11 +4,11 @@ import Link from "next/link";
 import { useRouter } from "next/navigation"
 
 
-export default function Layout({children}){
+export default function Layout({children}){ // representa os elementos passados para o comoponente
     const {push} = useRouter();
 
     const sair = (e) =>{
-        e.preventDefault();
+        e.preventDefault(); //Isso evita que a página seja recarregada quando o botão de sair for clicado.
         Cookies.remove('token');
         push('/')
     }

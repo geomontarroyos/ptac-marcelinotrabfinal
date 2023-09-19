@@ -22,7 +22,7 @@ export default function Login() {
       }
       push('/pages/dashboard');
     } catch {
-      refresh();
+      refresh(); //tualiza a página se ocorrer algum erro no try ou no catch
     }
   }
   return (

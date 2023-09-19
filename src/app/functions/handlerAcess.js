@@ -2,7 +2,7 @@ import Cookies from "js-cookie";
 import { validateToken } from "./validateToken";
 import { getUserAuthenticated } from "./handlerAcessAPI";
 
-const handlerAcessUser = async (user) => {
+const handlerAcessUser = async (user) => {  //recebe um parâmetro chamado user
 
     const userAuth = await getUserAuthenticated(user);
     
@@ -10,11 +10,11 @@ const handlerAcessUser = async (user) => {
 
     if (isTokenValidate) {
         Cookies.set('token', userAuth.token, { expires: 1 });
-        if (typeof window !== 'undefined'){
+        if (typeof window !== 'undefined'){  // o nome do usuário extraído de userAuth é armazenado no localStorage
             localStorage.setItem("nome", userAuth.nome); //aparecer no localStorage
         }
     }
- return userAuth;
+ return userAuth;  
 }
 export default handlerAcessUser;
 
