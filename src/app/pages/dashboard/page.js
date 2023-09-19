@@ -16,9 +16,6 @@ export default async function Dashboard() {
             <Suspense fallback={ <p className="carrega"> Carregando pagina...</p> }>
                 <Listar className="body" users={users}/>
             </Suspense>
-
-            <button className="botaoalt"><a href="/pages/alterar">Alterar</a></button>
-                <button className="botaoreg"><a href="/pages/registrar">Registrar</a></button>
 </div>
         </div>
     );
