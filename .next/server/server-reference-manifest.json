@@ -1,23 +1,19 @@
 {
   "node": {
-    "2cb1e3c29a2d0c798aa16cd6e9be0898ebc888eb": {
+    "22a574d9a3286b8b21a9c957e904a8a47d570a3f": {
       "workers": {
-        "app/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Claboratorio%5C%5CDesktop%5C%5Cptac-marcelino%5C%5Csrc%5C%5Capp%5C%5Cfunctions%5C%5ChandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%5D%5D%5D&__client_imported__=true!",
-        "app/pages/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Claboratorio%5C%5CDesktop%5C%5Cptac-marcelino%5C%5Csrc%5C%5Capp%5C%5Cfunctions%5C%5ChandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%5D%5D%5D&__client_imported__=!"
+        "app/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Claboratorio%5C%5Cpicolo%5C%5Cptac-marcelino%5C%5Csrc%5C%5Capp%5C%5Cfunctions%5C%5ChandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/page": "actionBrowser",
-        "app/pages/dashboard/page": "rsc"
+        "app/page": "actionBrowser"
       }
     },
-    "36b6aeafbb71f0641ce4f0b0d487391b8a00af97": {
+    "efaa0b0e4ebb3d55fa987b7ed6a5486d9ed617ea": {
       "workers": {
-        "app/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Claboratorio%5C%5CDesktop%5C%5Cptac-marcelino%5C%5Csrc%5C%5Capp%5C%5Cfunctions%5C%5ChandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%5D%5D%5D&__client_imported__=true!",
-        "app/pages/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Claboratorio%5C%5CDesktop%5C%5Cptac-marcelino%5C%5Csrc%5C%5Capp%5C%5Cfunctions%5C%5ChandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%5D%5D%5D&__client_imported__=!"
+        "app/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Claboratorio%5C%5Cpicolo%5C%5Cptac-marcelino%5C%5Csrc%5C%5Capp%5C%5Cfunctions%5C%5ChandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/page": "actionBrowser",
-        "app/pages/dashboard/page": "rsc"
+        "app/page": "actionBrowser"
       }
     }
   },
