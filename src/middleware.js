@@ -27,4 +27,3 @@ export const middleware = async (request) => {
 export const config = {
     matcher: ['/', '/pages/dashboard', '/pages/alterar', '/pages/registrar', ]
 };
-

@@ -3,7 +3,7 @@ export default async function Listar({users}){
     return(
         <div>
             {users?.map((user, index)=>
-            <p key={index}>{user.nome}</p> 
+            <p key={index}>{user.name}</p> 
             )}
             </div>
     )

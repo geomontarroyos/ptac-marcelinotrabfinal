@@ -36,13 +36,6 @@ export default function Login() {
 
       <div className="abcd">
         <input className="inputs"
-          placeholder='Insira seu nome'
-          type="name"
-          onChange={(e) => { setUser({ ...user, nome: e.target.value }) }}>
-        </input>
-</div>
-      <div className="abcd">
-        <input className="inputs"
           placeholder='Insira seu E-mail'
           type="email"
           onChange={(e) => { setUser({ ...user, email: e.target.value }) }}>
@@ -52,7 +45,7 @@ export default function Login() {
         <input className="inputs"
           placeholder='Insira sua senha'
           type='password'
-          onChange={(e) => { setUser({ ...user, senha: e.target.value }) }}>
+          onChange={(e) => { setUser({ ...user, password: e.target.value }) }}>
         </input>
         </div>
         <br></br>

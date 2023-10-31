@@ -1,8 +1,9 @@
 'use server'
-const url = "https://aula-17-10-7jz5qx3er-marisantosteixeira.vercel.app/";
+const url = "https://aula-17-10-eight.vercel.app";
 
 const getUserAuthenticated = async (userLogin) => {
-const responsepOfapi = await fetch(url + "/user/authenticated", 
+    console.log(userLogin)
+const responsepOfApi = await fetch(url + "/user/authenticated", 
 {
     method:"POST",
     headers:{"content-Type": "application/json"},
@@ -11,12 +12,14 @@ const responsepOfapi = await fetch(url + "/user/authenticated",
 
 );
 const userAuth = await responsepOfApi.json();
+console.log(userAuth)
 return userAuth;
 }
 
 const getUsers = async () =>{
- const responseOfApi = await fetch(url + "/users", {cache:"no cache"})
+ const responseOfApi = await fetch(url + "/users", {cache:"no-cache"})
  const userAuth = await responseOfApi.json();
+ console.log(userAuth)
  return userAuth;
 
 }

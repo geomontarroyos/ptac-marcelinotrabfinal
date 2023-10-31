@@ -5,7 +5,7 @@ import { getUserAuthenticated } from "./handlerAcessAPI";
 const handlerAcessUser = async (user) => {  //recebe um parâmetro chamado user
 
     const userAuth = await getUserAuthenticated(user);
-    
+    console.log(user)
     const isTokenValidate = validateToken(userAuth.token);
 
     if (isTokenValidate) {
