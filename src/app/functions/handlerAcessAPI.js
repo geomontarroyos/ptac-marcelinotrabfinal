@@ -17,10 +17,15 @@ return userAuth;
 }
 
 const getUsers = async () =>{
- const responseOfApi = await fetch(url + "/users", {cache:"no-cache"})
- const userAuth = await responseOfApi.json();
- console.log(userAuth)
- return userAuth;
-
+    try {
+        const responseOfApi = await fetch(url + "/users", {cache:"no-cache"})
+        const userAuth = await responseOfApi.json();
+        console.log(userAuth)
+        return userAuth;
+    } catch (error) {
+        console.log(error);
+        return "Erro ao listar usuários";
+    }
 }
+
 export { getUsers, getUserAuthenticated };
