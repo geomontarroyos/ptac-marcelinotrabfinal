@@ -5,14 +5,28 @@ import "../../global.css"
 
 const Formulario = () => {
 
-  const handlerLogin = async (e) => { // representa o evento de envio do formulário e evita que a pag seja recarregada.
-    e.preventDefault();
-    toast.success('registrado com sucesso')  
+
+const { push } = useRouter();
+
+  const handlerFormSubmit = async (event) =>{
+    event.preventDefault();
+    try{
+      await postUsers(user);
+      await new Promisse((resolve) => {
+        toast.sucess("usuario cadastrado");
+        setTimeout(resolve, 5000);
+      });
+      return push("/pages/dashboard/")
+    }catch{
+      toast.error("erro ao cadastrar");
+    }
   }
+
+
   return (
     <div className="body">
       <h1>Página de registro</h1>
-      <form onSubmit={handlerLogin }>   
+      <form onSubmit={handlerFormSubmit }>   
 
   <div className= "sla">
       <input  placeholder='nome' type="nome" className= "inputs" >
