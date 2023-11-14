@@ -33,7 +33,7 @@ try{
     {
         method:"POST",
         headers:{"content-Type": "application/json"},
-        body: JSON.stringify(userLogin)
+        body: JSON.stringify(user)
     });
 
 const userSave = await responsepOfApi.json();
