@@ -44,4 +44,21 @@ return userSave;
 }
 }
 
-export { getUsers, getUserAuthenticated, postUser  };
+const updateUser = async (user, id) => {
+    try{
+        const responsepOfApi = await fetch(url + "/user/" + id, 
+        {
+            method:"PUT",
+            headers:{"content-Type": "application/json"},
+            body: JSON.stringify(user)
+        });
+    
+    const userUpdate = await responsepOfApi.json();
+    return userUpdate;
+    }catch(error){
+        console.error(`Error: ${error}`);
+        return null;
+    }
+    }
+
+export { getUsers, getUserAuthenticated, postUser, updateUser  };
