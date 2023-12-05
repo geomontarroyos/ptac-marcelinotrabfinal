@@ -1,4 +1,4 @@
-// File: C:\Users\laboratorio\picolo\ptac-marcelino\src\app\layout.js
+// File: C:\Users\gmont\gs-tattoo\ptac-marcelinotrabfinal\src\app\layout.js
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

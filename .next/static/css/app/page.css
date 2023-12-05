@@ -615,170 +615,154 @@
 /*!**************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./src/app/global.css ***!
   \**************************************************************************************************************************************************************************************************************************************************************/
-.body{
-    background-color: white;
-    color: lightblue; 
+body {
+    background-color: #7c7575;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
 }
 
-.carrega{
- margin-top: 50px;
-   
+.carrega {
+    margin-top: 50px;
 }
 
-
-p{
-    font-size: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border: black solid 1px;
-    text-align: center;
-    margin-top: 15px;
-
-}
-
-button{
-    padding: 15px;
-    background-color: lightblue;
-    border-radius: 8px;
-    border-color: white;
-
-
-    
-}
-
-.botao{
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    margin-left: 48%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.botaoalt{
-    margin-left: 42%;
-    margin-right: 25px;
-}
-
-button:hover{
-    background-color:rgb(22, 167, 229);
-}
-
-.entrar{
-    color: white;
-    margin-left: 42%;
-    margin-right: 25px;
-    font-size: 20px;
-    font-weight: bold;
-}
-.voltar{
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.apvolt{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-  
-}
-.h1{
-    color: lightblue
-}
-
-a{
-    text-decoration: none;
-    color: white;
+p {
     font-size: 18px;
-    font-weight: bold;
-    padding: 5px;
-}
-
-h1{
+    padding: 10px;
+    border: 2px solid #000000;
     text-align: center;
     margin-top: 20px;
-    padding-top: 100px;
 }
 
-.inputs{
-    padding: 20px;
-    text-align: center;
-    color: white;
-    background-color: lightblue;
-    border-color: white;
-    border-radius: 15px;
-    margin-bottom: 15px;
-    margin-left: 0px;
-    margin-right: 0px;
+button {
+    padding: 15px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.botao {
+    color: #fff;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 18px;
+    margin-left: 48%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.inputs:hover{
-    background-color: rgb(22, 167, 229) ;
+.botaoalt {
+    margin-left: 42%;
+    margin-right: 25px;
+}
+
+button:hover {
+    background-color: #797979;
+}
+
+.entrar {
+    color: #fff;
+    margin-left: 42%;
+    margin-right: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.voltar {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.apvolt {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+}
+
+.inputs {
+    padding: 15px;
+    text-align: center;
+    color: #333;
+    background-color: #ecf0f1;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    width: 50%;
+    margin-left: 25%;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.inputs:hover {
+    background-color: #000000;
+    color: #fff;
 }
 
 .inputs::-moz-placeholder {
-    color: white;
-    font-size: 15px;
+    color: #666;
+    font-size: 14px;
     font-weight: bold;
 }
 
 .inputs::placeholder {
-    color: white;
-    font-size: 15px;
+    color: #666;
+    font-size: 14px;
     font-weight: bold;
 }
 
-form{
-    padding-bottom: 100px;
+form {
+    padding-bottom: 50px;
 }
 
-.inputs{
-    width: 50%;
-    
- margin-left: 25%;
+fieldset {
+    margin-top: 20%;
 }
 
-fieldset{
-    margin-top: 10%;
+nav ul {
+    background-color: #000000;
+    padding: 20px;
+    border: 1px solid #ededed;
 }
 
-nav ul{
-    background-color: lightblue;
-    padding: 30px;
-    border:1px solid rgb(22, 167, 229);
-   
-
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
 }
 
-nav ul #link{
+nav ul li a {
     text-decoration: none;
+    color: #fff;
+    font-weight: bold;
     padding: 10px;
-   
-
 }
 
-.menu li a:hover{
-
-color:#fff;
--moz-box-shadow:0 1px 5px 0 rgb(22, 167, 229);
--webkit-box-shadow:0 1px 5px 0 rgb(22, 167, 229);
-text-shadow:0px 0px 1px rgb(22, 167, 229);
+nav ul li a:hover {
+    color: #fff;
+    background-color: #7c8382;
 }
 
-.menu li ul{
-    position:absolute;
-top:25px;
-left:0;
-background-color:#fff;
-display:none;
+.menu li ul {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background-color: #fff;
+    display: none;
 }
 
-.sair{
-    color: white;
-    font-size: 18px;
+.sair {
+    color: #fff;
+    font-size: 16px;
     font-weight: bold;
 }
+
